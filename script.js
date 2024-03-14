@@ -42,7 +42,7 @@ const products = [
   },
   {
     name: "Coxinha",
-    img: "./img/Coxinha.jpeg",
+    img: "./img/coxinha.jpeg",
     flavors: ["Frango"], // Adicionando um array vazio de sabores
     type: "Salgados",
     price: 6 // Definindo o preço fixo
@@ -141,7 +141,7 @@ const products = [
   },
   {
     name: "Bolo de Maracuja",
-    img: "./img/bolo_de_maracuja.jpeg",
+    img: "./img/bolo_de_Maracuja.jpeg",
     flavors: ["Maracujá"], 
     type: "Salgados",
     price: 6 
