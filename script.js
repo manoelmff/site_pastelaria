@@ -42,14 +42,14 @@ const products = [
   },
   {
     name: "Coxinha",
-    img: "/img/Coxinha.jpeg",
+    img: "./img/Coxinha.jpeg",
     flavors: ["Frango"], // Adicionando um array vazio de sabores
     type: "Salgados",
     price: 6 // Definindo o preço fixo
   },
   {
     name: "Cachorro Quente",
-    img: "/img/Cachorro_Quente.jpeg",
+    img: "./img/Cachorro_Quente.jpeg",
     flavors: [
       "Salsicha",      
       "Carne Moída",
@@ -68,7 +68,7 @@ const products = [
   },
   {
     name: "Empada de Frango",
-    img: "/img/empadaDeFrango.jpeg",
+    img: "./img/empadaDeFrango.jpeg",
     flavors: ["Frango"], // Adicionando um array vazio de sabores
     type: "Salgados",
     price: 5 // Definindo o preço fixo
@@ -88,7 +88,7 @@ const products = [
       "Queijo Coalho",
       "Bacon"
     ],
-    img: "/img/Tapioca.jpeg",
+    img: "./img/Tapioca.jpeg",
     price: {
       2: 6,
       3: 7
@@ -101,7 +101,7 @@ const products = [
       { name: "Batata Frita P <b>R$ 6,00</b> - com Queijo Ralado, Sal, Ketchup, Maionese, Mostarda e Cheddar", price: 6 },
       { name: "Batata Frita G <b>R$ 12,00</b> - com Queijo Ralado, Sal, Ketchup, Maionese, Mostarda e Cheddar", price: 12 }
     ],
-    img: "/img/batata_frita.jpeg",
+    img: "./img/batata_frita.jpeg",
     type: "Salgados",
     price: 6 // Definindo o preço fixo
   },
@@ -111,7 +111,7 @@ const products = [
       { name: "Escondidinho de Charque P <b>R$ 6,00</b> ", price: 6 },
       { name: "Escondidinho de Charque G <b>R$ 12,00</b> ", price: 12 }
     ],
-    img: "/img/escondidinho.jpeg",
+    img: "./img/escondidinho.jpeg",
     type: "Salgados",
     price: 6 // Definindo o preço fixo
   },
@@ -122,33 +122,33 @@ const products = [
       { name: "Açaí Médio <b>R$ 8,00</b>  - com Banana, Leite em Pó, Leite Condensado, M&M, Chocobol, Farinha de Amendoim, Granola e Paçoca", price: 8 },
       { name: "Açaí Grande <b>R$ 12,00</b> - com Banana, Leite em Pó, Leite Condensado, M&M, Chocobol, Farinha de Amendoim, Granola e Paçoca", price: 12 }
     ],
-    img: "/img/acai.jpeg",
+    img: "./img/acai.jpeg",
     type: "Sobremesas"
   },
   {
     name: "Bolo de Noiva",
-    img: "/img/bolo_de_noiva.jpeg",
+    img: "./img/bolo_de_noiva.jpeg",
     flavors: ["Bolo de Noiva"], 
     type: "Salgados",
     price: 8 
   },
   {
     name: "Copo da Felicidade",
-    img: "/img/copo_da_felicidade.jpeg",
+    img: "./img/copo_da_felicidade.jpeg",
     flavors: ["Vários Sabores"], 
     type: "Salgados",
     price: 8 
   },
   {
     name: "Bolo de Maracuja",
-    img: "/img/bolo_de_Maracuja.jpeg",
+    img: "./img/bolo_de_Maracuja.jpeg",
     flavors: ["Maracujá"], 
     type: "Salgados",
     price: 6 
   },
   {
     name: "Docinho Gourmet",
-    img: "/img/docinhos_gourmet.jpeg",
+    img: "./img/docinhos_gourmet.jpeg",
     flavors: ["Vários Sabores"], 
     type: "Salgados",
     price: 1 
@@ -166,7 +166,7 @@ const products = [
       { name: "Água com Gás 500ml <b>R$ 3,00</b>", price: 3 },
       { name: "Copo de Suco<b>R$ 3,00 </b>", price: 3 }
     ],
-    img: "/img/refrigerantes.jpeg",
+    img: "./img/refrigerantes.jpeg",
     type: "Sobremesas"
   },
   ];
