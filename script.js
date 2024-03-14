@@ -68,7 +68,7 @@ const products = [
   },
   {
     name: "Empada de Frango",
-    img: "/img/Empada_de_frango.jpeg",
+    img: "/img/empadaDeFrango.jpeg",
     flavors: ["Frango"], // Adicionando um array vazio de sabores
     type: "Salgados",
     price: 5 // Definindo o preço fixo
@@ -448,8 +448,4 @@ function sendOrderToWhatsApp() {
   // Limpar o carrinho após o pedido ser enviado
   clearCart();
 }
-<<<<<<< HEAD
 // esta perfeito 14/03 10:00
-=======
-// esta perfeito 14/03 10:00
->>>>>>> e8bf8d10e53eaf98b6e22de99f393026fc834cb4
