@@ -42,7 +42,7 @@ const products = [
   },
   {
     name: "Coxinha",
-    img: "./img/coxinha.jpeg",
+    img: "./img/Coxinha.jpeg",
     flavors: ["Frango"], // Adicionando um array vazio de sabores
     type: "Salgados",
     price: 6 // Definindo o preço fixo
