@@ -1,0 +1,309 @@
+/* Reset de estilos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos da página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff9ea;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title h1 {
+  font-size: 3em;
+  color: #fff;
+  font-weight: bold;
+  padding: 20px 40px;
+  background-color: #ef990f;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.title h1:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos dos cards */
+.cards {  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.card {
+  position: relative;
+  width: calc(50% - 20px);
+  margin-bottom: 40px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #f2eddf;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.03);
+}
+
+.card img {
+  width: 100%; /* Reduzindo um pouco o tamanho da imagem */
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card .card-body {
+  padding: 20px;
+}
+
+.card .card-title {
+  background-color: #ef990f;
+  border-radius: 4px;
+  font-size: 1.5em;  
+  margin-bottom: 10px;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-text {
+  color: #666;
+  
+}
+
+.card .add-to-cart {
+  position: absolute;
+  bottom: 10px;
+  right: 10px; /* Ajustado para ficar no canto direito */
+  width: 100px; /* Tamanho do botão */
+  background-color: #ef990f;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.card .add-to-cart:hover {
+  background-color: #ef990f;
+}
+
+/* Estilizando os checkboxes */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  background-color: transparent;
+}
+
+input[type="checkbox"]::before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #e2ac17;
+  border-radius: 3px;
+  margin-right: 5px;
+  vertical-align: middle;
+  transition: background-color 0.3s ease;
+}
+
+input[type="checkbox"]:checked::before {
+  background-color: #e2b977;
+}
+
+/* Estilos dos botões */
+.btn {
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #e2b977;
+  border-color: #ede4b3;
+  color: #333;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background-color: #f2bb61;
+  border-color: #dea03d;
+  color: #333;
+  transform: translateY(-2px);
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Adicionando estilos para informações do cliente e carrinho de compras */
+.customer-info {
+  font-size: 18px;
+  width: 100%;
+  background-color: #fff9ea;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.customer-info h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.customer-info label {
+  display: block;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.customer-info input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.shopping-cart {
+  font-size: 18px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shopping-cart h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.cart-items {
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item .item-number {
+  font-weight: bold;
+}
+
+.cart-item .item-value {
+  float: right;
+}
+
+.buttons button {
+  margin-right: 10px;
+}
+
+.buttons button:last-child {
+  margin-right: 0;
+}
+
+/* Estilos do botão de acesso ao Instagram */
+.instagram-button {
+  background-color: #e1306c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.instagram-button:hover {
+  background-color: #bd0844;
+  transform: translateY(-4px);
+}
+
+/* Estilos do botão de acesso ao Site da Pastelaria Boa Fama */
+.Site-button {
+  background-color: #e2b977;
+  color: #666;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.Site-button:hover {
+  background-color: #f8d477;
+  color: #333;
+  transform: translateY(-4px);
+}
+
+/* Regras de Mídia para Telas Menores (Dispositivos Móveis) */
+@media (max-width: 768px) {
+  .card {
+    width: 100%; /* Alterado para ocupar 100% da largura em telas menores */
+    margin-bottom: 20px; /* Espaçamento inferior reduzido */
+  }
+
+  .card .add-to-cart {
+    width: 100%; /* Botão de adicionar ao carrinho ocupando 100% da largura */
+    right: 0; /* Posicionado no canto direito */
+    left: 0; /* Resetando a posição esquerda */
+    margin: 10px auto 0; /* Adicionando margem superior e centralizando */
+    position: static; /* Resetando a posição absoluta */
+  }
+}
+/* esta perfeito 11/03 13:27 */

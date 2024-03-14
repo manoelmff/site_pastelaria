@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio da Pastelaria Boa Fama</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+  <a href="http://127.0.0.1:5500/index.html#" class="Site-button">Site Pastelaria Boa Fama</a>
+  <a href="https://www.instagram.com/pastelaria_boa_fama?igshid=ZGUzMzM3NWJiOQ%3D%3D" class="instagram-button">Siga-nos no Instagram</a>  
+</div> 
+
+ 
+
+<div class="container">
+  <div class="title">
+    <h1>Pastelaria Boa Fama</h1>
+  </div>
+  <div id="productCards" class="cards"></div>
+
+  <!-- Formulário para o nome e endereço do cliente -->
+  <div class="customer-info">
+    <h2>Informações do Cliente</h2>
+    <form id="customerForm">
+      <div class="form-group">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Endereço:</label>
+        <input type="text" id="address" name="address" required>
+      </div>
+    </form>
+  </div>
+
+  <!-- Carrinho de Compras -->
+  <div class="cart">
+    <h2>Carrinho de Compras</h2>
+    <div class="cart-items"></div>
+    <div class="total">Total: R$ <span id="total">0.00</span></div>
+    <div class="buttons">
+      <button id="toggleCart" class="btn btn-primary">  Carrinho</button>
+      <button id="clearCart" class="btn btn-danger">Limpar Carrinho</button>
+      <button id="sendOrder" class="btn btn-success">Enviar Pedido</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!-- esta perfeito 11/03 13:27 -->
