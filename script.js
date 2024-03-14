@@ -141,7 +141,7 @@ const products = [
   },
   {
     name: "Bolo de Maracuja",
-    img: "./img/bolo_de_Maracuja.jpeg",
+    img: "./img/bolo_de_maracuja.jpeg",
     flavors: ["Maracujá"], 
     type: "Salgados",
     price: 6 
